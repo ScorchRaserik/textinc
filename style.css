@@ -41,30 +41,30 @@
 .left-box{
   top: 0;
   left: 0;
-  width: 25%;
-  height: 100%;
+  width: calc(25% - 40px);
+  height: calc(100% - 40px);
 }
 
 .top-box{
   top: 0;
   left: 25%;
-  width: 50%;
-  height: 66%;
+  width: calc(50% - 45px);
+  height: calc(66% - 40px);
+  overflow-y: auto;
 }
 
 .bot-box{
   top: 66%;
   left: 25%;
-  width: 50%;
-  height: 34%;
+  width: calc(50% - 40px);
+  height: calc(34% - 40px);
 }
 
 .right-box{
   top: 0;
   right: 0;
-  width: 25%;
-  height: 100%;
-  text-align: center;
+  width: calc(25% - 40px);
+  height: calc(100% - 40px);
 }
 
 .button{
@@ -74,9 +74,29 @@
   border: 5px solid lime;
   text-align: center;
   line-height: 60px;
-  float: left;
   font-size: 24px;
   font-weight: 400;
+  position: absolute;
+}
+
+#button1{
+  top: 20px;
+  left: calc(25% - 135px);
+}
+
+#button2{
+  top: 20px;
+  right: calc(25% - 135px);
+}
+
+#button3{
+  bottom: 20px;
+  left: calc(25% - 135px);
+}
+
+#button4{
+  bottom: 20px;
+  right: calc(25% - 135px);
 }
 
 .button:hover{
