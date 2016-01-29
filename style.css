@@ -1,0 +1,87 @@
+.game-body{
+  background-color: black;
+  min-width: 1280px;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+.vert-border{
+  width: 5px;
+  height: 800px;
+  background-color: lime;
+  position: absolute;
+  top: 0;
+}
+
+.border-1{
+  left: 25%;
+}
+
+.border-2{
+  right: 25%;
+}
+
+.horiz-border{
+  height: 5px;
+  width: 50%;
+  background-color: lime;
+  position: absolute;
+  top: 66%;
+  left: 25%;
+}
+
+.info{
+  padding: 20px;
+  position: absolute;
+  color: lime;
+  font-family: "Lucida Console";
+}
+
+.left-box{
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+
+.top-box{
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 66%;
+}
+
+.bot-box{
+  top: 66%;
+  left: 25%;
+  width: 50%;
+  height: 34%;
+}
+
+.right-box{
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+
+.button{
+  margin: 20px;
+  width: 250px;
+  height: 60px;
+  border: 5px solid lime;
+  text-align: center;
+  line-height: 60px;
+  float: left;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.button:hover{
+  background-color: lime;
+  color: black;
+  cursor: pointer;
+  font-weight: 700;
+}
