@@ -1,29 +1,53 @@
-<!doctype html> 
+<!doctype html>
 <html lang="en">
-<head> 
+<head>
 	<meta charset="UTF-8" />
     <title>TextInc</title>
-    <style type="text/css">
-        body {
-            margin: 0;
-        }
-    </style>
-    <script type="text/javascript" src="js/phaser.min.js"></script>
-    <!-- <script type="text/javascript" src="js/Preload.js"></script>
-    <script type="text/javascript" src="js/Intro.js"></script> -->
-    <script type="text/javascript" src="js/Main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<script type="text/javascript">
-
-(function() {
-	var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game');
-    //game.state.add('Preload', TXT.Preload);
-	//game.state.add('Intro', TXT.Intro);
-	game.state.add('Main', TXT.Main);
-	game.state.start('Main');
-})();
-
-</script>
+	<div class="game-body">
+		<div class="vert-border border-1"></div>
+		<div class="vert-border border-2"></div>
+		<div class="horiz-border"></div>
+		<div class="info left-box">Item Inventory:</div>
+		<div class="info top-box">
+			News and information displayed here News and information displayed here
+			News and information displayed here News and information displayed here
+			News and information displayed here News and information displayed here
+			News and information displayed here News and information displayed here <br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+			News and information displayed here<br><br>
+		</div>
+		<div class="info bot-box">
+			<div class="button" id="button1">Button 1</div>
+			<div class="button" id="button2">Button 2</div>
+			<div class="button" id="button3">Button 3</div>
+			<div class="button" id="button4">Button 4</div>
+		</div>
+		<div class="info right-box">Stats</div>
+	</div>
 </body>
 </html>
